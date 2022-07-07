@@ -1,0 +1,28 @@
+h1 {
+
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background: url(Images/nn.jpeg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 7.5s linear infinite;
+
+
+
+}
+
+@keyframes text {
+
+    form {
+        background-position: 0% 50%;
+
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}
